@@ -1,7 +1,7 @@
 # React Assessment 3
 
 ## Description
-React assessment 2 for list of employees with form.  
+React assessment 3 for list of employees with form.  
 Employees are added via the submit button with a form. After submitting, a card modal will be shown to see the details of the employee. 
 
 The table row can also be clicked to view the details of the employee again. Material UI is used for the framework.
