@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom Styling */
+.button-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#employees {
+  width: 80vw;
+}
+
+.employee-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field {
+  margin-bottom: 10px;
+}
+
+.table-row {
+  transition: 0.15s;
+}
+
+.table-row:hover {
+  background-color: #1e2024;
+  cursor: pointer;
 }
